@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline-color: #ea33d1;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: center;
+
+  @media screen and (max-width: 640px) {
+    font-size: 3rem;
+  }
+
+  padding: 0.5rem;
+  margin: 0;
+  background: -webkit-linear-gradient(0deg, rgb(234, 51, 209) 25%, rgb(255, 253, 0) 85%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.border-radius {
+  border-radius: 0.4rem;
+}
+
+.button {
+  width: 140px;
+  height: 50px;
+  padding: 0.6rem 1.2rem;
+  margin: 0;
+  border: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  transition: all 0.1s ease-out;
+
+  &:hover {
+    background-color: #222;
+    border-width: 3px;
+  }
+
+  &--add {
+    border-image-source: linear-gradient(to left, #00ebd8, #30c400);
+  }
+
+  &--remove {
+    border-image-source: linear-gradient(to left, #c89900, #ff5959);
+  }
+}
+
+.todo-form {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+
+  input {
+    flex-grow: 1;
+    width: 400px;
+    background-color: #333;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border: 2px solid #444;
+  }
+
+  .button {
+    height: 60px;
+    margin-left: 0.5rem;
+  }
+}
+
+.todolist-wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+
+  @media screen and (min-width: 721px) {
+    max-width: 640px;
+  }
+
+  @media screen and (max-width: 720px) {
+    max-width: 560px;
+  }
+
+  @media screen and (max-width: 320px) {
+    max-width: 300px;
+  }
+  
+}
+
+.todolist {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.4rem;
+  padding-bottom: 0.4rem;
+
+  &:not(&:last-of-type) {
+    border-bottom: 1px dashed white;
+  }
+
+  .todo-title {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
