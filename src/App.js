@@ -8,6 +8,7 @@ const defaultTodos = [
   {
     id: uuid(),
     title: 'Add more todos',
+    completed: false,
   },
 ];
 
