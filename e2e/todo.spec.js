@@ -7,7 +7,7 @@ test('has title', async ({ page }) => {
   await page.goto(URL);
 
   // Expect a title "to contain" a substring.
-  await expect(page.getByTestId('app-title')).toContainText('Simple todo');
+  await expect(page.getByTestId('app-title')).toContainText('My todo list');
 });
 
 test('add and remove todo', async ({ page }) => {

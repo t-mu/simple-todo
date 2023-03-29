@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <main>
-      <h1 data-testid="app-title">Simple todo list</h1>
+      <h1 data-testid="app-title">My todo list</h1>
       <TodoList todos={todos} onTodoAdd={addTodo} onTodoRemove={removeTodo} />
     </main>
   );

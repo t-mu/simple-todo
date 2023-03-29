@@ -6,7 +6,7 @@ jest.mock('./components', () => ({ TodoList: () => <div>MockTodoList</div> }));
 test('renders correct heading', () => {
   render(<App />);
   const heading = screen.getByRole('heading');
-  expect(heading).toHaveTextContent('Simple todo');
+  expect(heading).toHaveTextContent('My todo list');
 });
 
 test('renders TodoList', () => {
