@@ -20,7 +20,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Build the app
-        run: npm run build
+        run: PUBLIC_URL=/ npm run build
 
       - name: Start server and run Playwright
         run: |
