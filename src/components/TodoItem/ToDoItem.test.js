@@ -1,5 +1,5 @@
 import { TodoItem } from "./TodoItem"
-import { render, screen, waitForElementToBeRemoved } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 
 
 const mockRemove = jest.fn()
