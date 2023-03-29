@@ -7,11 +7,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "14.x"
+          node-version: "16"
       - name: Install Dependencies
         run: npm install
       - name: Build App
@@ -19,11 +19,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "14.x"
+          node-version: "16"
       - name: Install Dependencies
         run: npm install
       - name: Run App Unit Tests
