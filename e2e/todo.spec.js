@@ -3,12 +3,8 @@ const { test, expect } = require('@playwright/test');
 
 const URL = 'http://localhost:3000';
 
-test.beforeEach(async ({ page }) => {
-  await page.goto(URL);
-})
-
 test('has title', async ({ page }) => {
-  
+  await page.goto(URL);
 
   // Expect a title "to contain" a substring.
   await expect(page.getByTestId('app-title')).toContainText('Simple todo');
