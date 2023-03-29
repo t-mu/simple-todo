@@ -24,7 +24,7 @@ jobs:
 
       - name: Start server and run Playwright
         run: |
-          npx serve -s build &
+          PUBLIC_URL=/ npx serve -s build &
           npx playwright test
 
       - uses: actions/upload-artifact@v3
