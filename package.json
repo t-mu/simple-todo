@@ -16,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:e2e": "npx playwright test",
+    "test:e2e:debug": "npx playwright test --debug",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,7 +39,11 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@testing-library/react": "^14.0.0",
     "jest": "^27.5.1"
+=======
+    "@playwright/test": "^1.32.1"
+>>>>>>> workflow
   }
 }
