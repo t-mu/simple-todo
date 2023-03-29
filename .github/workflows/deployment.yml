@@ -26,13 +26,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Setup git username and email
-        run: |
-          git config --global user.email "teemu.mantyharju@gmail.com"
-          git config --global user.name "Teemu Mäntyharju"
       - name: Install dependencies
         run: npm ci
-      - name: Deploy
+      - name: Build
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
