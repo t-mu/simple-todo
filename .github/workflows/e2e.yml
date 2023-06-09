@@ -19,14 +19,9 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Build the app
-        run: PUBLIC_URL=/ npm run build
-
-      - name: Start server and run Playwright
-        run: |
-          npx serve -s build &
-          npx playwright test
-
+      - name: Run Playwright
+        run: npx playwright test
+        
       - uses: actions/upload-artifact@v3
         if: always()
         with:
