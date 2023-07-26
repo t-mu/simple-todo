@@ -1577,9 +1577,9 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@playwright/test@^1.36.2":
+"@playwright/test@^1.32.1":
   version "1.36.2"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.36.2.tgz#9edd68a02b0929c5d78d9479a654ceb981dfb592"
+  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.36.2.tgz"
   integrity sha512-2rVZeyPRjxfPH6J0oGJqE8YxiM1IBRyM8hyrXYK7eSiAqmbNhxwcLa7dZ7fy9Kj26V7FYia5fh9XJRq4Dqme+g==
   dependencies:
     "@types/node" "*"
@@ -1781,10 +1781,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@testing-library/dom@^8.5.0":
-  version "8.20.0"
-  resolved "https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.0.tgz"
-  integrity sha512-d9ULIT+a4EXLX3UU8FBjauG9NnsZHkHztXoIcTsOKoOw030fyjheN9svkTULjJxtYag9DZz5Jz5qkWZDPxTFwA==
+"@testing-library/dom@^9.0.0":
+  version "9.2.0"
+  resolved "https://registry.npmjs.org/@testing-library/dom/-/dom-9.2.0.tgz"
+  integrity sha512-xTEnpUKiV/bMyEsE5bT4oYA0x0Z/colMtxzUY8bKyPXBNLn/e0V4ZjBZkEhms0xE4pv9QsPfSRu9AWS4y5wGvA==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
@@ -1792,7 +1792,7 @@
     aria-query "^5.0.0"
     chalk "^4.1.0"
     dom-accessibility-api "^0.5.9"
-    lz-string "^1.4.4"
+    lz-string "^1.5.0"
     pretty-format "^27.0.2"
 
 "@testing-library/jest-dom@^5.16.5":
@@ -1810,13 +1810,13 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^13.4.0":
-  version "13.4.0"
-  resolved "https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz"
-  integrity sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==
+"@testing-library/react@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.npmjs.org/@testing-library/react/-/react-14.0.0.tgz"
+  integrity sha512-S04gSNJbYE30TlIMLTzv6QCTzt9AqIF5y6s6SzVFILNcNvbV/jU96GeiTPillGQo+Ny64M/5PV7klNYYgv5Dfg==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@testing-library/dom" "^8.5.0"
+    "@testing-library/dom" "^9.0.0"
     "@types/react-dom" "^18.0.0"
 
 "@testing-library/user-event@^13.5.0":
@@ -2016,9 +2016,9 @@
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
 "@types/node@*":
-  version "20.4.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.5.tgz#9dc0a5cb1ccce4f7a731660935ab70b9c00a5d69"
-  integrity sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==
+  version "18.15.9"
+  resolved "https://registry.npmjs.org/@types/node/-/node-18.15.9.tgz"
+  integrity sha512-dUxhiNzBLr6IqlZXz6e/rN2YQXlFgOei/Dxy+e3cyXTJ4txSUbGT2/fmnD6zd/75jDMeW5bDee+YXxlFKHoV0A==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -6183,7 +6183,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lz-string@^1.4.4:
+lz-string@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
@@ -6755,7 +6755,7 @@ pkg-up@^3.1.0:
 
 playwright-core@1.36.2:
   version "1.36.2"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.36.2.tgz#32382f2d96764c24c65a86ea336cf79721c2e50e"
+  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.36.2.tgz"
   integrity sha512-sQYZt31dwkqxOrP7xy2ggDfEzUxM1lodjhsQ3NMMv5uGTRDsLxU0e4xf4wwMkF2gplIxf17QMBCodSFgm6bFVQ==
 
 postcss-attribute-case-insensitive@^5.0.2:
